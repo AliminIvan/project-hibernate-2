@@ -82,11 +82,13 @@ public class Runner {
     }
 
     public static void main(String[] args) {
+
         Runner runner = new Runner();
         Customer customer = runner.createRandomCustomer();
         runner.customerRentInventory(customer);
         runner.customerReturnRentalFilm();
         runner.addNewFilmInStock();
+
     }
 
     private void addNewFilmInStock() {
